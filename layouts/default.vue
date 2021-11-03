@@ -4,7 +4,7 @@
       <v-btn-toggle tile dark color="white" group>
         <v-btn to="/">Home</v-btn>
         <v-btn to="/menu">Menu</v-btn>
-        <v-btn to="about">About</v-btn>
+        <v-btn to="/about">About</v-btn>
       </v-btn-toggle>
     </v-app-bar>
     <v-main >

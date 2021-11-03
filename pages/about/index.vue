@@ -1,5 +1,9 @@
 <template>
-  <h1>Hello! This is about page!</h1>
+<div>
+  <div v-for="fruit of $store.state.fruits" :key="fruit.id" class="mx-4">
+    <nuxt-link :to="{name: 'about-fruits', params: {fruits: fruit.id}}">{{ fruit.name }}</nuxt-link>
+  </div>
+</div>
 </template>
 
 <script>

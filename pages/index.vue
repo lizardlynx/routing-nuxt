@@ -1,5 +1,5 @@
 <template>
-  <div><h1>Hello! This is the main page!</h1></div>
+  <div><v-subheader class="indigo--text text--darken-4">Home page!</v-subheader></div>
 </template>
 
 <script>
